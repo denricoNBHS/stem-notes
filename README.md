@@ -3,14 +3,19 @@
 ## About:
 Mr. Enrico is not a programmer, but he feels that all of his students should
  learn to code at least a little. This is his feeble attempt at making that
- process a little simpler.
+ process a touch simpler.
 
- For what it's worth, he learned Python through Codecademy in much the same
- way he's asking you to.
+ For what it's worth, he learned Python through [Codecademy](http://www.codecademy.com) in
+ much the same way he's asking you to.
 
  The guide assumes Python 3.x
+[Link to Installation](#installation)
 
-## Installation:
+## Table of Contents
+1. [Installation](#installation)
+2. [Introduction](notes/python_intro.ipynb)
+
+## Installation:<a name="installation"></a>
 Download or clone the repository into a directory that works for you. The
 notes are written in Jupyter Notebook format, so you may need to `pip
 install jupyter notebook` if you want to play with the notebooks locally, or
