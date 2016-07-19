@@ -1,12 +1,11 @@
 # This code tests your solutions. Please do not change it! #
 import re
-from unittest import TestCase
-
-from exercise_1 import exercise
+import unittest
 
 
-class Test(TestCase):
+class Test(unittest.TestCase):
     def test_vars(self):
+        import exercise
         self.assertTrue(hasattr(exercise, "one"),
                         'You must declare a variable called "one".')
         self.assertEqual(exercise.one, 1, 'variable one\'s value seems off.')
@@ -23,3 +22,6 @@ class Test(TestCase):
             self.assertTrue(m, 'Did you test for the right equivalence?')
             self.assertNotEqual(m.group('var1'), m.group('var2'),
                                 'Seeing if a variable is equivalent to itself is silly!')
+
+if __name__ == '__main__':
+    unittest.main()
