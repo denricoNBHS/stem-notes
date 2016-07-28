@@ -13,10 +13,10 @@ Mr. Enrico is not a programmer, but he feels that all of his students should
 
 ## Table of Contents
 1. [Installation](#installation)
-2. [Introduction](notes/python_intro.ipynb)
-3. [Mathematical Operators](notes/mathematical_operators.ipynb)
-4. [Assignment](notes/assignment.ipynb)
-5. [Functions](notes/functions.ipynb)
+2. [Introduction](notes/python_intro.md)
+3. [Mathematical Operators](notes/mathematical_operators.md)
+4. [Assignment](notes/assignment.md)
+5. [Functions](notes/functions.md)
 
 ## Installation:<a name="installation"></a>
 Download or clone the repository into a directory that works for you. The
